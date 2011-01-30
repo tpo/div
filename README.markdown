@@ -28,7 +28,7 @@ Given a view with the following line
       <%= div "sidebar" %>
 
 
-and a partial "_sidebar.html.erb" containing
+and a partial `_sidebar.html.erb` containing
 
       link_to "Usage", usage_path()
 
@@ -48,7 +48,7 @@ A view source like this:
       <%= div "logo", :reuse => true %>
 
 
-and a partial "_logo.html.erb" containing
+and a partial `_logo.html.erb` containing
 
       link_to( image_tag("logo.png"), "/" )
 
