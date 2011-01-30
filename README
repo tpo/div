@@ -9,6 +9,14 @@ document then 'div' can be told so, whereupon it will put the partial's
 name into the element's class instead.
 
 
+Installation
+============
+
+Inside your Rails application directory do:
+
+  ./script/plugin install git://github.com/tpo/div.git
+
+
 Examples
 ========
 
