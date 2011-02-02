@@ -8,6 +8,8 @@ If the partial is meant to be reused multiple times inside an HTML
 document then `div` can be told so, whereupon it will put the partial's
 name into the element's class instead.
 
+'/' on Unix and '\' on Windows in the partial name will be raplaced
+by underscores.
 
 Installation
 ============
